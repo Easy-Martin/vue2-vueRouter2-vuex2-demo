@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <title>我的订单</title>
+    <script>
+    var Token, AES, Phone;
+    try {
+      Token = JSON.parse(app.getTokenInfo());
+      AES = Token.AES;
+      Phone = Token.phone;
+      sessionStorage.setItem('AES', AES);
+      sessionStorage.setItem('Phone', Phone);
+    } catch (e) {
+      AES = sessionStorage.getItem('AES');
+      Phone = sessionStorage.getItem('Phone');
+    }
+  </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
