@@ -1,4 +1,7 @@
-# order
+# 一个订单事例
+
+> 有三种订单类型，vuex定义了3个modules，src/api是请求数据，安装后可改成对应的地址或写成死数据
+
 
 > A Vue.js project
 
