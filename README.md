@@ -2,6 +2,7 @@
 
 > 有三种订单类型，vuex定义了3个modules，src/api是请求数据，安装后可改成对应的地址或写成死数据
 
+[中文文档](https://vuefe.cn/)
 
 > A Vue.js project
 
